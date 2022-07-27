@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>va:topic:a6b2fcf72f745510f98fa55df699b659:node:f18a985c639d4bfc94347f44b13ab615:field:acknowledgement</key>
+        <language>en</language>
+        <message>Thank you for your choice!
+You've created an order with the following details:</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 20:12:48</sys_created_on>
+        <sys_id>e11195f72ff45510f98fa55df699b66d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>va:topic:a6b2fcf72f745510f98fa55df699b659:node:f18a985c639d4bfc94347f44b13ab615:field:acknowledgement</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sys_ui_message_e11195f72ff45510f98fa55df699b66d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 20:12:48</sys_updated_on>
+    </sys_ui_message>
+</record_update>

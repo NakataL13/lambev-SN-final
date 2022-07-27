@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite">
+    <sys_atf_test_suite action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <input_filter/>
+        <name>Email Validate Suite</name>
+        <parent display_value="Country Management Main Suite">eb9e34772fb45510f98fa55df699b6a4</parent>
+        <sys_class_name>sys_atf_test_suite</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 18:55:22</sys_created_on>
+        <sys_id>3fde38772fb45510f98fa55df699b682</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Email Validate Suite</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sys_atf_test_suite_3fde38772fb45510f98fa55df699b682</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 18:55:22</sys_updated_on>
+    </sys_atf_test_suite>
+</record_update>

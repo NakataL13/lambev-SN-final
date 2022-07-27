@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_country_code" label="country-code" language="en" table="x_842885_country_m_countryhistory">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_country_code</element>
+            <help/>
+            <hint/>
+            <label>country-code</label>
+            <language>en</language>
+            <name>x_842885_country_m_countryhistory</name>
+            <plural>country-codes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:18:07</sys_created_on>
+            <sys_id>2efaf31b2ff01510f98fa55df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>country-code</sys_name>
+            <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+            <sys_update_name>sys_documentation_x_842885_country_m_countryhistory_u_country_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:18:07</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

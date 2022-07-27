@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_842885_country_m.EmailVerificationAJAX</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EmailVerificationAJAX</name>
+        <script><![CDATA[var EmailVerificationAJAX = Class.create();
+EmailVerificationAJAX.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    verifyEmail: function() {
+        var email = this.getParameter('sysparm_email');
+        var pattern = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/gm;
+        if (pattern.test(email)) {
+            return true;
+        } else {
+            return false;
+        }
+    },
+    type: 'EmailVerificationAJAX'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-25 20:19:21</sys_created_on>
+        <sys_id>d068c8a72f341510f98fa55df699b674</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>EmailVerificationAJAX</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sys_script_include_d068c8a72f341510f98fa55df699b674</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-25 20:19:21</sys_updated_on>
+    </sys_script_include>
+</record_update>

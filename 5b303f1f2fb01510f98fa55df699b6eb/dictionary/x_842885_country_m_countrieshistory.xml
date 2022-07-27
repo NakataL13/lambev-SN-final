@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="CountriesHistory" max_length="40" name="x_842885_country_m_countrieshistory" sizeclass="0" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=name;alpha-2;alpha-3;country-code;iso_3166-2;region;sub-region;intermediate-region;region-code;sub-region-code;intermediate-region-code" label="name;alpha-2;alpha-3;country-code;iso_3166-2;region;sub-region;intermediate-regi" max_length="120" name="u_name_alpha_2_te_region_code" type="string"/>
+    </element>
+</database>

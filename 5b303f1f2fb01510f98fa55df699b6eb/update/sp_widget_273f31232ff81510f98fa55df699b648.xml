@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+  /* widget controller */
+  var c = this;
+	$(document).ready(function() {
+  $('input[type=checkbox]').change(function() {
+   
+    if (this.checked) {
+      $(this).next(".label-text").css("text-decoration-line", "line-through");
+    } else {
+       $(this).next(".label-text").css("text-decoration-line", "none");
+    }
+
+  });
+});
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>body{background-color: blue}.notes{border-top-left-radius: 42px}.dot{height: 6px;width: 6px;margin-left: 8px;margin-right: 3px;margin-top: 2px;background-color: rgb(91, 92, 91);border-radius: 50%;display: inline-block}.review-text{background: red;color: #fff}.info{color: #8c8b9a}.dot-red{background-color: red !important;height: 6px;width: 6px;margin-left: 8px;margin-right: 3px;margin-top: 2px;border-radius: 50%;display: inline-block}.overview{color: red}@keyframes click-wave{0%{height: 40px;width: 40px;opacity: 0.15;position: relative}100%{height: 200px;width: 200px;margin-left: -80px;margin-top: -80px;opacity: 0}}.option-input{-webkit-appearance: none;-moz-appearance: none;-ms-appearance: none;-o-appearance: none;appearance: none;position: relative;top: 10.3px;right: 0;bottom: 0;left: 0;height: 30px;width: 30px;transition: all 0.15s ease-out 0s;background: #cbd1d8;border: none;color: #fff;cursor: pointer;display: inline-block;margin-right: 0.5rem;outline: none;position: relative;z-index: 1000}.option-input:hover{background: #9faab7}.option-input:checked{background: red}.option-input:checked::before{height: 30px;width: 30px;position: absolute;content: "\f111";font-family: "Font Awesome 5 Free";display: inline-block;font-size: 16.7px;text-align: center;line-height: 30px}.option-input:checked::after{-webkit-animation: click-wave 0.25s;-moz-animation: click-wave 0.25s;animation: click-wave 0.25s;background: red;content: '';display: block;position: relative;z-index: 100}.option-input.radio{border-radius: 50%}.option-input.radio::after{border-radius: 50%}.completed{color: gray;text-decoration: line-through}.line-text{width: 100%;text-align: center;border-bottom: 1px solid #eee;line-height: 0.1em;margin: 10px 0 20px}.line-text span{background: #fff;padding: 0 10px;color: #212529}.user-images img{margin-left: -5px}
+.container {
+  padding:3rem;
+    margin:1rem 3rem 2rem 3rem;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>wishlist</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>wishlist</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 04:55:59</sys_created_on>
+        <sys_id>273f31232ff81510f98fa55df699b648</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>wishlist</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sp_widget_273f31232ff81510f98fa55df699b648</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 05:24:40</sys_updated_on>
+        <template><![CDATA[<div>
+<div class="container mt-5">
+    <div class="d-flex justify-content-center row">
+        <div class="col-md-6">
+            <div class="p-4 bg-white notes">
+                <div class="d-flex flex-row align-items-center notes-title">
+                    <h4>Groceries list</h4>
+                </div>
+                <div class="d-flex flex-row align-items-center align-content-center"><span class="rounded info">2022</span><span class="dot"></span><span class="info ml-1">NL - 27</span></div>
+            </div>
+            <div class="p-3 bg-white">
+                <div class="d-flex align-items-center"><label><input type="checkbox" class="option-input radio"><span class="label-text">Buy Groceries</span></label></div>
+                <div class="d-flex align-items-center"><label><input type="checkbox" class="option-input radio"><span class="label-text">Get vegan-free and gluten-free flour</span></label></div>
+                <div class="d-flex align-items-center"><label><input type="checkbox" class="option-input radio"><span class="label-text">Buy veggies</span></label></div>
+                <div class="d-flex align-items-center"><label><input type="checkbox" class="option-input radio"><span class="label-text">Buy honey and turmeric</span></label></div>
+                <div class="d-flex align-items-center"><label><input type="checkbox" class="option-input radio"><span class="label-text">Eggs(vegan)</span></label></div>
+            </div>
+         
+        
+        </div>
+    </div>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

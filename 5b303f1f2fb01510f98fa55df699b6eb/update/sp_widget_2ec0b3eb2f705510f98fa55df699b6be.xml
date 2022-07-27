@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function TimeCtrl($scope, $timeout) {
+    $scope.clock = "loading clock..."; // initialise the time variable
+    $scope.tickInterval = 1000 //ms
+
+    var tick = function() {
+        $scope.clock = Date.now() // get the current time
+        $timeout(tick, $scope.tickInterval); // reset the timer
+    }
+
+    // Start the timer
+    $timeout(tick, $scope.tickInterval);
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.clock-container {
+  display:inline-block;
+  color:#FAF6EC;
+  padding:2rem;
+  border-radius: 6px;
+    font-size:2em;
+  border-bottom-right-radius:25px;
+  border-top-left-radius:25px;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+    border:1px solid #FAF6EC;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ghQWzflVK1-CPCtcmrICd8EMhSzSp9WUJg&amp;usqp=CAU");
+  background-repeat:no-repeat;
+   background-size: 100% 100%;
+  height: 300px;
+}
+.clock-container &gt; div{
+	font-size: 2em;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>groceriesclocklist</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>GroceriesClockList</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 13:12:04</sys_created_on>
+        <sys_id>2ec0b3eb2f705510f98fa55df699b6be</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>GroceriesClockList</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sp_widget_2ec0b3eb2f705510f98fa55df699b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 13:36:48</sys_updated_on>
+        <template><![CDATA[<div class="clock-container">
+<div class="inner-container">
+  <div ng-controller='TimeCtrl'><p>{{ clock  | date:'medium'}}</p></div>  
+</div>
+  
+</div>
+
+]]></template>
+    </sp_widget>
+</record_update>

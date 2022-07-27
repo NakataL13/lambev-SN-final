@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.text-container {
+	margin: 3rem auto;
+  text-align:center;
+  color:#F74C25;
+  font-size: 3em;
+  font-weight:bold;
+}
+.insta-anchor {
+	padding: 1rem;
+  border: 1px solid #F74C25;
+  border-radius: 25px;
+  color: #F74C25
+  
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>followus</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>FollowUs</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 10:11:21</sys_created_on>
+        <sys_id>136743e32ffc1510f98fa55df699b6bb</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>FollowUs</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sp_widget_136743e32ffc1510f98fa55df699b6bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 10:43:13</sys_updated_on>
+        <template><![CDATA[<div>
+	<div class="text-container">
+    	<p>
+        Follow us on Instagram <span><a class="insta-anchor" href="https://www.instagram.com/re_grocery/">re_grocery</a></span>
+    </p>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

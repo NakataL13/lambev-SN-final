@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary:#F74C25;
+$body-bg:#EFEDE7;
+$state-success-text:#F74C25;
+$sp-homepage-bg:#fff;
+$sp-navbar-divider-color:#455464;
+$text-color:#F74C25;
+$sp-logo-margin-y:.5rem;
+$navbar-inverse-link-hover-color:#290b04;
+$panel-bg:#fff;
+$brand-success:#48C891;
+$navbar-inverse-bg: #F7F6F2;
+$brand-warning:#f0ad4e;
+$brand-danger:#d9534f;
+$sp-tagline-color:#717171;
+$navbar-inverse-link-color:#F74C25;
+$brand-info:#5bc0de;
+$link-color:#F74C25;
+$sp-logo-margin-x:1.5rem;
+$btn-default-bg:#fff;
+$text-muted:#F74C25;
+</css_variables>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="index">46cc384147532100ba13a5554ee49009</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</kb_knowledge_page>
+        <login_page/>
+        <logo/>
+        <notfound_page display_value="404_page">3246d0f52f745110f98fa55df699b660</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page display_value="sc_home">fe87a11147132100ba13a5554ee490b9</sc_catalog_page>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu display_value="SP Header Menu">d150fd31cb10020000f8d856634c9ce6</sp_rectangle_menu>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 04:21:45</sys_created_on>
+        <sys_id>4317756b2fb81510f98fa55df699b601</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Country Management</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sp_portal_4317756b2fb81510f98fa55df699b601</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 04:30:49</sys_updated_on>
+        <theme display_value="CAB Workbench - Default">49d3c5809f231200b18a7feea57fcf9b</theme>
+        <title>Country Management</title>
+        <ts_index_group/>
+        <url_suffix>cm</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=4317756b2fb81510f98fa55df699b601"/>
+</record_update>

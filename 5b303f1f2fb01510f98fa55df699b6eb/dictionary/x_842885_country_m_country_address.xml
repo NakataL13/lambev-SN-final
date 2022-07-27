@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer" max_length="40" name="x_842885_country_m_country_address" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Customer address" max_length="32" name="customer_address" reference="x_842885_country_m_country_addresses" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Surname" max_length="40" name="surname" type="string"/>
+        <element attributes="encode_utf8=false" label="user reference" max_length="32" name="user_reference" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="customer_address"/>
+        </index>
+        <index name="index2">
+            <element name="user_reference"/>
+        </index>
+    </element>
+</database>

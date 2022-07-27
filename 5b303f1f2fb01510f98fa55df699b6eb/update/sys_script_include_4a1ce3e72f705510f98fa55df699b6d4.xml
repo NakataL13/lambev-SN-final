@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_842885_country_m.TotalSumOfOrderLines</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>TotalSumOfOrderLines</name>
+        <script><![CDATA[var TotalSumOfOrderLines = Class.create();
+TotalSumOfOrderLines.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getTotalSum: function() {
+        var orderLineSysId = this.getParameter('sysparm_orderLineSysId');
+        var separatedSysIds = orderLineSysId.split(',');
+        var result = 0;
+        for (var i = 0; i < separatedSysIds.length; i++) {
+            var currSysId = separatedSysIds[i];
+            var gr = new GlideRecord('x_842885_country_m_order_line');
+            gr.addEncodedQuery('sys_id=' + currSysId);
+            gr.query();
+
+            if (gr.next()) {
+//                 gs.info('Alex gr test: ' + gr.u_product + ' ==== ' + gr.u_quantity);
+                var quantity = gr.getValue('quantity');
+                var grProduct = new GlideRecord('x_842885_country_m_product');
+                grProduct.addEncodedQuery('sys_id=' + gr.product);
+                grProduct.query();
+
+                if (grProduct.next()) {
+                    var productPrice = grProduct.getValue('price');
+                    result = result + (productPrice * quantity);
+                }
+
+            }
+        }
+            return JSON.stringify({"result":result});
+    },
+    type: 'TotalSumOfOrderLines'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 12:51:56</sys_created_on>
+        <sys_id>4a1ce3e72f705510f98fa55df699b6d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>TotalSumOfOrderLines</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sys_script_include_4a1ce3e72f705510f98fa55df699b6d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 13:03:47</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_name_alpha_2_te_region_code" label="name;alpha-2;alpha-3;country-code;iso_3166-2;region;sub-region;intermediate-regi" language="en" table="x_842885_country_m_countrieshistory">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_name_alpha_2_te_region_code</element>
+            <help/>
+            <hint/>
+            <label>name;alpha-2;alpha-3;country-code;iso_3166-2;region;sub-region;intermediate-regi</label>
+            <language>en</language>
+            <name>x_842885_country_m_countrieshistory</name>
+            <plural>name;alpha-2;alpha-3;country-code;iso_3166-2;region;sub-region;intermediate-regi</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-07-25 19:15:22</sys_created_on>
+            <sys_id>625a7bd72ff01510f98fa55df699b6a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>name;alpha-2;alpha-3;country-code;iso_3166-2;region;sub-region;intermediate-region;region-code;sub-region-code;intermediate-region-code</sys_name>
+            <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+            <sys_update_name>sys_documentation_x_842885_country_m_countrieshistory_u_name_alpha_2_te_region_code_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-07-25 19:15:22</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">a23a352f2fb81510f98fa55df699b6bc</sp_column>
+        <sp_widget display_value="Taxonomy Content Card">be4b0dd2779030109033bfeacf5a998a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 04:37:15</sys_created_on>
+        <sys_id>d9fab9eb2fb81510f98fa55df699b6f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sp_instance_d9fab9eb2fb81510f98fa55df699b6f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 04:37:15</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d9fab9eb2fb81510f98fa55df699b6f6"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</application>
+        <file_path/>
+        <instance_id>8129177fdb1b97444f035d00cf961908</instance_id>
+        <instance_name>dev66362</instance_name>
+        <name>sp_instance_d9fab9eb2fb81510f98fa55df699b6f6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="2">a23a352f2fb81510f98fa55df699b6bc</sp_column><sp_widget display_value="Taxonomy Content Card">be4b0dd2779030109033bfeacf5a998a</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-26 04:37:15</sys_created_on><sys_id>d9fab9eb2fb81510f98fa55df699b6f6</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package><sys_policy/><sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope><sys_update_name>sp_instance_d9fab9eb2fb81510f98fa55df699b6f6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-26 04:37:15</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=d9fab9eb2fb81510f98fa55df699b6f6"/></record_update>]]></payload>
+        <payload_hash>-1997777449</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>9b303f1f2fb01510f98fa55df699b6ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 04:37:16</sys_created_on>
+        <sys_id>d1fa316f2fb81510f98fa55df699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18238cb7d570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 04:37:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>1dfa316f5eb8151065b7bc4cb9eaf87d</update_guid>
+        <update_guid_history>1dfa316f5eb8151065b7bc4cb9eaf87d:-1997777449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">440b312f2fb81510f98fa55df699b660</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 04:37:27</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4fbeaf860d6c4c989b799d166357bf10</sys_id>
+        <sys_metadata>d9fab9eb2fb81510f98fa55df699b6f6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_scope_delete display_value="">b7ce48c4ef1f4e7a9f116001c532e451</sys_scope_delete>
+        <sys_update_name>sp_instance_d9fab9eb2fb81510f98fa55df699b6f6</sys_update_name>
+        <sys_update_version display_value="sp_instance_d9fab9eb2fb81510f98fa55df699b6f6">d1fa316f2fb81510f98fa55df699b67e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 04:37:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

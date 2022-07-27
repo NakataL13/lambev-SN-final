@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color>##F74C25</background_color>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Country Management Index - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="country_management_index">c0d73d2b2fb81510f98fa55df699b610</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 13:31:37</sys_created_on>
+        <sys_id>7445bbef2f705510f98fa55df699b603</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Country Management Index - Container 1</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_update_name>sp_container_7445bbef2f705510f98fa55df699b603</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 13:37:24</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</application>
+        <file_path/>
+        <instance_id>8129177fdb1b97444f035d00cf961908</instance_id>
+        <instance_name>dev66362</instance_name>
+        <name>sp_container_7445bbef2f705510f98fa55df699b603</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color>##F74C25</background_color><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Country Management Index - Container 1</name><order>1</order><sp_page display_value="country_management_index">c0d73d2b2fb81510f98fa55df699b610</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-26 13:31:37</sys_created_on><sys_id>7445bbef2f705510f98fa55df699b603</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Country Management Index - Container 1</sys_name><sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package><sys_policy/><sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope><sys_update_name>sp_container_7445bbef2f705510f98fa55df699b603</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-26 13:37:24</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-1592052945</payload_hash>
+        <record_name>Country Management Index - Container 1</record_name>
+        <reverted_from/>
+        <source>9b303f1f2fb01510f98fa55df699b6ed</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-26 13:37:24</sys_created_on>
+        <sys_id>e996f7632fb05510f98fa55df699b6cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1823ab9ffab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-26 13:37:24</sys_updated_on>
+        <type>Container</type>
+        <update_guid>2596f7638cb055106bdedf277adb15cf</update_guid>
+        <update_guid_history>2596f7638cb055106bdedf277adb15cf:-1592052945,bc45bbeffd705510b6b45c666fdc0504:-672811002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Country Management Index - Container 1">da1b83372fbc5510f98fa55df699b6c8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-27 05:05:53</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>3f380ff16aaa4c3086e6f2e591bf3100</sys_id>
+        <sys_metadata>7445bbef2f705510f98fa55df699b603</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Country Management Index - Container 1</sys_name>
+        <sys_package display_value="Country Management" source="x_842885_country_m">5b303f1f2fb01510f98fa55df699b6eb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Country Management">5b303f1f2fb01510f98fa55df699b6eb</sys_scope>
+        <sys_scope_delete display_value="">b7ce48c4ef1f4e7a9f116001c532e451</sys_scope_delete>
+        <sys_update_name>sp_container_7445bbef2f705510f98fa55df699b603</sys_update_name>
+        <sys_update_version display_value="sp_container_7445bbef2f705510f98fa55df699b603">e996f7632fb05510f98fa55df699b6cf</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-27 05:05:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
